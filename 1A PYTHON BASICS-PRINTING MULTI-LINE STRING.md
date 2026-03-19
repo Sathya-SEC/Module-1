@@ -1,33 +1,30 @@
-
-# Experiment No: 1a Python Basics- Printing Multiline String
+# Experiment No: 1B- Data Types – Printing Integer Literals
 
 ## AIM  
-To create a Python program to print the string in multiple lines using triple quotes. 
+To write a Python program to print the following integer literals: 123, 456, 789.
 
 ## ALGORITHM  
 1. Begin the program.  
-2. Use triple quotes (`'''` or `"""`) to define a string that spans multiple lines.  
-3. Use the `print()` function to display the multi-line string.  
+2. Initialize the integer literals `123`, `456`, and `789`.  
+3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
 4. Terminate the program.
 
 ## PROGRAM
 ```python
 # Reg.No-212222060232
-# Name-SATHYANARAYANAN S
+# Name- SATHYANARAYANAN S
 # Write your code here
+num1 = 123
+num2 = 456
+num3 = 789
 
-print("""I am a string literal
-... has more than one
-... line
-....placed inside triple single quotes
-I am a string literal
-... has more than one
-... line
-....placed inside triple double quotes""")
+print(num1, num2, num3)
+
+
 ```
 ## OUTPUT
-<img width="1189" height="462" alt="image" src="https://github.com/user-attachments/assets/0db2c2be-beac-4c6a-b418-32ee29bca25b" />
+<img width="622" height="293" alt="image" src="https://github.com/user-attachments/assets/53d9efc8-9fdd-4ad4-938f-83097923d030" />
 
 
 ## RESULT
-The program prints a multiline string using both triple single (''') and triple double (""") quotes.
+The program successfully prints the integer and float literals 10,3.14.
